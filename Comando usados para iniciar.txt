@@ -1,0 +1,17 @@
+1) para iniciar -> npm init
+Depois (descrever o nome) exemplo: "rest-api"
+
+2)Para trabalhar com express precisamos instalar um pacote de dependencia -> npm install --save-dev express body-parser cors
+
+3)Criar o arquivo para rodar o servidor touch api.js
+
+
+em um determinado pedaço instalei o nodemon
+1)npm instal nodemon
+
+2)depois setei um comando
+npm config get prefix (ele ira retornar o lugar que vc deve salvar a variavel de npm)
+
+3)set PATH=%PATH%:C:\Users\Usuario\AppData\Roaming\npm
+
+(iniciar o node "nodemon ./api.js")
